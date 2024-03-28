@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  color: #1c3855;
+}
+.titulo {
+  font-weight: 800;
+  margin-bottom: 35px;
+  color: #806840;
+}
+.form {
+  text-align: center;
+  padding: 20px 35px;
+  border-radius: 15px;
+  animation: fade-in 1.5s ease;
+  box-sizing: border-box;
+  background-color: rgba(255, 236, 204, 0.6);
+  border: 1px solid rgba(204, 186, 155, 0.1);
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
+}
+.form input {
+  padding: 15px 100px;
+  border: none;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  width: 200px;
+  margin-bottom: 8px;
+  background-color: #e0e0e0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.form input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.input-wrapper {
+  margin-bottom: 1.4em;
+}
+.input-wrapper input[type="text"],
+.input-wrapper input[type="password"] {
+  padding-left: 10px;
+}
+#senha::placeholder {
+  color: #1c3855;
+  font-weight: 400;
+  font-size: 15px;
+}
+#email::placeholder {
+  color: #1c3855;
+  font-weight: 400;
+  font-size: 15px;
+}
+.forgotPassword {
+  color: #806840;
+  text-decoration: none;
+}
+.forgotPassword_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-right: 12px;
+}
+.button {
+  padding: 13px 123px;
+  border-radius: 9px;
+  border: none;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #1c3855;
+  box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.3);
+}
+.button:hover {
+  cursor: pointer;
+  color: #ffeccc;
+  background-color: rgba(28, 56, 85, 0.7);
+}
+.botao-hover {
+  /* Estilo de hover aqui quando clica vai ficar aqui */
+  background-color: ;
+}
+.imgBaixo {
+  margin-top: 20em;
+  animation: grow 1s ease;
+}
+.imgCima {
+  margin-bottom: 25em;
+  animation: grow 1s ease;
+}
+.ancora {
+  text-decoration: none;
+  margin-left: 3px;
+  color: #806840;
+}
+
+/* animações para as imagens */
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* animações para para o form */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 2;
+  }
+}
